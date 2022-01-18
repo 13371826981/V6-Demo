@@ -15,6 +15,7 @@ function Rect (props){
             width: 800,
             height: 1500,
         })
+        
         setGraph(graph)
          // 生成一组可被添加的节点
         const nodes = data.map((dataItem,index) => {
